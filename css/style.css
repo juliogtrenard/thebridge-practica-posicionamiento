@@ -3,3 +3,65 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.color-oscuro {
+  background-color: #333;
+  color: white;
+}
+
+.header {
+  height: 120px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.nav {
+  position: sticky;
+  top: 0;
+  background-color: #5a5aff;
+  padding: 20px 0;
+  text-align: center;
+  z-index: 10;
+}
+.nav li {
+  display: inline-block;
+  margin: 0 20px;
+}
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.nav a:hover {
+  text-decoration: underline;
+}
+.section {
+  position: relative;
+  width: 100%;
+  margin-bottom: 40px;
+}
+.principal {
+  width: 80%;
+  padding: 0 20px;
+}
+.titulo {
+  padding: 20px 0;
+}
+.texto {
+  margin-bottom: 20px;
+}
+.aside {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20%;
+  height: 100%;
+  background-color: #ff4444;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+}
