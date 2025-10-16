@@ -1,20 +1,24 @@
+/* Establecer márgenes, paddings y box-sizing para todos los elementos */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Color de fondo y color del texto usados en el encabezado y footer */
 .color-oscuro {
   background-color: #333;
   color: white;
 }
 
+/* Altura, espaciado y alineación del encabezado */
 .header {
   height: 120px;
   padding: 10px 0;
   text-align: center;
 }
 
+/* Estilos de la barra de navegación, se pega al borde superior de la pantalla despues de pasar el encabezado */
 .nav {
   position: sticky;
   top: 0;
@@ -23,33 +27,41 @@
   text-align: center;
   z-index: 10;
 }
+/* Coloca los elementos de la barra de navegación uno al lado del otro y los separa */
 .nav li {
   display: inline-block;
   margin: 0 20px;
 }
+/* Elimina la línea de subrayado y cambia el color de los enlaces */
 .nav a {
   color: white;
   text-decoration: none;
   font-size: 1.2rem;
 }
+/* Añade la línea de subrayado a los enlaces al pasar el ratón por encima */
 .nav a:hover {
   text-decoration: underline;
 }
+/* Sección que contiene el contenido principal y el aside que ocupa todo el ancho de la pantalla */
 .section {
   position: relative;
   width: 100%;
   margin-bottom: 40px;
 }
+/* Contenedor del contenido principal ocupando el 80% de la pantalla */
 .principal {
   width: 80%;
   padding: 0 20px;
 }
+/* Espaciado entre el título y el texto */
 .titulo {
   padding: 20px 0;
 }
+/* Espaciado entre el texto y las imagenes */
 .texto {
   margin-bottom: 20px;
 }
+/* Aside que ocupa el 20% de la pantalla y alineado a la derecha */
 .aside {
   position: absolute;
   top: 0;
@@ -58,6 +70,7 @@
   height: 100%;
   background-color: #ff4444;
 }
+/* Footer fijo en la parte inferior de la pantalla */
 .footer {
   position: fixed;
   bottom: 0;
